@@ -117,7 +117,7 @@ main h1{
     font-size: 2vw;
     /* background-color: #14bf98; */
     text-align: center;
-    color: #17191b;
+    color: #dfe5ec;
 }
 /* .detail-btn{
     display: flex;
@@ -386,7 +386,7 @@ main button :hover{
 .details1{
     /* width: 300px; */
     /* background-color: #2a76c2; */
-    height: 100px;
+    /* height: 100px; */
     flex-grow: 1;
     width: 450px;
     padding: 2% 3%;
@@ -398,4 +398,195 @@ main button :hover{
     font-size: 1.75rem;
     line-height: 2.125rem;
     font-family: Montserrat, sans-serif;
+}
+.details2{
+    /* width: 300px; */
+    /* background-color: #2a76c2; */
+    /* height: 100px; */
+    flex-grow: 1;
+    width: 450px;
+    padding: 2% 3%;
+    padding-top: 5%;
+}
+.wizard{
+    display: flex;
+    /* background-color: gray; */
+    align-items: center;
+}
+#w1{
+    /* background-color: green; */
+    font-weight: 700;
+    flex-grow: 1;
+    font-size: 1.275rem;
+    font-family: Montserrat, sans-serif;
+    color: #14bf98;
+    margin-left: 7px;
+}
+#w2{
+    /* background-color: violet; */
+    font-weight: 700;
+    flex-grow: 1;
+    font-size: 1.275rem;
+    font-family: Montserrat, sans-serif;
+    color: #14bf98;
+    margin-left: 7px;
+}
+#w3{
+    /* background-color: chocolate; */
+    font-weight: 700;
+    flex-grow: 1;
+    font-size: 1.275rem;
+    font-family: Montserrat, sans-serif;
+    color: #14bf98;
+    margin-left: 7px;
+}
+.wizard-info{
+    /* background-color: gray; */
+}
+.wizard-info h4{
+    color: #484a46;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    font-family: Montserrat, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.wizard-info p{
+    color: #787976;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5625rem;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 25px;
+}
+#busin{
+    margin-bottom: 5px;
+}
+.business-bar{
+    background-color: #14bf98;
+    height: 23px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+.opportunity-bar{
+    /* background-color: red; */
+    display: flex;
+    margin-bottom: 20px;
+}
+.green-bar{
+    background-color: #14bf98;
+    width: 76%;
+    height: 23px;
+}
+.gray-bar{
+    background-color: rgb(246, 242, 242);
+    height: 23px;
+    flex-grow: 1;
+}
+.online-bar{
+    background-color: red;
+    display: flex;
+}
+.online-bar .green-bar{
+    background-color: #14bf98;
+    width: 90%;
+}
+
+/* Testimonials */
+.testimonials{
+    display: flex;
+    /* background-color: aqua; */
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 50px 7%;
+    justify-content: space-around;
+    row-gap: 20px;
+    top: 50%;
+}
+.box{
+    flex-grow: 1;
+    background-color: dodgerblue;
+    
+    width: 300px;
+    /* flex-grow: 1; */
+    min-width: 320px;
+    max-width: 600px;
+    display: grid;
+    
+    align-items: center;
+}
+.hexa{
+    /* margin-left: 40%; */
+    background-color: antiquewhite;
+    width: 6rem;
+    height: 6rem;
+    margin-bottom: -50px;
+    /* margin-left: 10%; */
+    /* background-position-x: center;
+    background-position-y: center; */
+    background-repeat: no-repeat;
+    background-image: url(hexa.svg);
+}
+.blue-box-1 h4{
+    /* background-color: gray; */
+    margin-top: 60px;
+    margin-bottom: 0.625rem;
+    color: #484a46;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    font-family: Montserrat, sans-serif;
+}
+.blue-box-1 p{
+    /* background-color: rebeccapurple; */
+    margin: 0px 25px;
+    color: #787976;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align:center;
+    line-height: 1.5625rem;
+    font-family: "Open Sans", sans-serif;
+}
+.blue-box-1{
+    display: flex;
+    flex-grow: 1;
+    /* background-color: dodgerblue; */
+    width: 300px;
+    min-width: 320px;
+    max-width: 600px;
+    align-items: center;
+    flex-direction: column;
+}
+.hexa-content-1{
+    display: flex;
+    /* background-color: antiquewhite; */
+    width: 6rem;
+    height: 6rem;
+    margin-bottom: -50px;
+    background-repeat: no-repeat;
+    background-image: url(hexa.svg);
+    align-items: center;
+    justify-content: center;
+}
+.bin-img-1{
+    background-image: url(binoculars-solid.svg);
+    height: 30px;
+    width: 30px;
+    margin-top: -10px;
+    background-repeat: no-repeat;
+}
+.list-img-1{
+    background-image: url(list-alt-solid.svg);
+    height: 30px;
+    width: 30px;
+    margin-top: -10px;
+    background-repeat: no-repeat;
+}
+.chart-pie-img-1{
+    background-image: url(chart-pie-solid.svg);
+    height: 30px;
+    width: 30px;
+    margin-top: -10px;
+    background-repeat: no-repeat;
 }
