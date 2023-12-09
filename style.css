@@ -590,3 +590,139 @@ main button :hover{
     margin-top: -10px;
     background-repeat: no-repeat;
 }
+/* Testimonials */
+.testimonials{
+    /* background-color: red; */
+    display: flex;
+    /* height: 100px; */
+    /* flex-direction: column; */
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* .testimonials p{
+    font-size: 1rem;
+    line-height: 1.5625rem;
+    color: #787976;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+} */
+.heading{
+    /* background-color: violet; */
+    text-align: center;
+    width: 520px;
+}
+.heading h1{
+    margin-bottom: 15px;
+}
+.heading p{
+    font-size: 1rem;
+    line-height: 1.5625rem;
+    color: #787976;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+}
+.testimonial-cards{
+    display: flex;
+    /* background-color: gray; */
+    /* height: 20px; */
+    /* width: 100%; */
+    margin: 0% 10%;
+    display: flex;
+    /* justify-content: space-between; */
+    /* overflow-x: scroll; */
+    flex-wrap: wrap;
+}
+.card1{
+    /* background-color: tomato; */
+    width: 300px;
+    /* height: 350px; */
+    min-width: 300px;
+    text-align: center;
+    flex-grow: 1;
+    padding: 0px 15px;
+    margin-bottom: 50px;
+}
+.card1 img{
+    height: 6rem;
+    border-radius: 100%;
+    margin-bottom: 30px;
+}
+.card1 p{
+    font-style:italic;
+    color: #787976;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5625rem;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 10px;
+}
+.card1 #auther{
+    color: #484a46;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    font-family: Montserrat, sans-serif;
+}
+.card2{
+    /* background-color: tomato; */
+    width: 300px;
+    /* height: 350px; */
+    min-width: 300px;
+    text-align: center;
+    flex-grow: 1;
+    padding: 0px 15px;
+    margin-bottom: 50px;
+}
+.card2 img{
+    height: 6rem;
+    border-radius: 100%;
+    margin-bottom: 30px;
+}
+.card2 p{
+    font-style:italic;
+    color: #787976;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5625rem;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 10px;
+}
+.card2 #auther{
+    color: #484a46;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    font-family: Montserrat, sans-serif;
+}
+.card3{
+    /* background-color: tomato; */
+    width: 300px;
+    /* height: 350px; */
+    min-width: 300px;
+    text-align: center;
+    flex-grow: 1;
+    padding: 0px 15px;
+    margin-bottom: 50px;
+}
+.card3 img{
+    height: 6rem;
+    border-radius: 100%;
+    margin-bottom: 30px;
+}
+.card3 p{
+    font-style:italic;
+    color: #787976;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5625rem;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 10px;
+}
+.card3 #auther{
+    color: #484a46;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    font-family: Montserrat, sans-serif;
+}
