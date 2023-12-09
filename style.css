@@ -67,10 +67,10 @@ header{
 #hexa2-inside{
     margin-left: -37px;   
 }
-ul li:hover{
+.links ul li:hover{
     color: #14bf98;
 }
-ul li:first-child{
+.links ul li:first-child{
     color: #14bf98;
 }
 .menu-bars{
@@ -440,9 +440,7 @@ main button :hover{
     color: #14bf98;
     margin-left: 7px;
 }
-.wizard-info{
-    /* background-color: gray; */
-}
+
 .wizard-info h4{
     color: #484a46;
     font-weight: 700;
@@ -614,6 +612,11 @@ main button :hover{
 }
 .heading h1{
     margin-bottom: 15px;
+    color: #153e52;
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+    font-family: Montserrat, sans-serif;
 }
 .heading p{
     font-size: 1rem;
@@ -634,7 +637,7 @@ main button :hover{
     flex-wrap: wrap;
 }
 .card1{
-    background-color: tomato;
+    /* background-color: tomato; */
     width: 300px;
     /* height: 350px; */
     min-width: 330px;
@@ -666,7 +669,7 @@ main button :hover{
     font-style: normal;
 }
 .card2{
-    background-color: tomato;
+    /* background-color: tomato; */
     width: 300px;
     /* height: 350px; */
     min-width: 330px;
@@ -698,7 +701,7 @@ main button :hover{
     font-style: normal;
 }
 .card3{
-    background-color: tomato;
+    /* background-color: tomato; */
     width: 300px;
     /* height: 350px; */
     min-width: 330px;
@@ -729,4 +732,166 @@ main button :hover{
     line-height: 1.375rem;
     font-family: Montserrat, sans-serif;
     font-style: normal;
+}
+/* Call Me */
+.call-me{
+    background-color: #153e52;
+    /* height: 100px; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.left-container{
+    /* background-color: #14bf98; */
+    width: 450px;
+    flex-grow: 1;
+    padding-bottom: 50px;
+}
+.right-container{
+    /* background-color: tomato; */
+    width: 450px;
+    flex-grow: 1;
+}
+.left-content{
+    /* background-color: gray; */
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.left-content p:first-child{
+    color: #14bf98;
+    font-weight: 500;
+    font-size: 0.8125rem;
+    line-height: 2.225rem;
+    font-family: Montserrat, sans-serif;
+}
+.left-content h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 2.225rem;
+    font-family: Montserrat, sans-serif;
+}
+.left-content #desc{
+    color: #dfe5ec;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5625rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+#call-me-ul{
+    list-style: square;
+    /* color: red; */
+    margin-left: 15px;
+    color: #dfe5ec;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5625rem;
+    font-family: "Open Sans", sans-serif;
+}
+/* ul{
+    list-style: none;
+}
+ul li::before {
+    content: "\25AA";
+    font-size: 25px;
+    color: #14bf98;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: -0.7em;
+} */
+.right-content{
+    /* background-color: gray; */
+    margin-top: 10%;
+    margin-left: 7%;
+    margin-right: 8%;
+}
+.right-content #name{
+    background-color: #2a5d77;
+    border: 1px solid #39728f;
+    color: #fff;
+    width: 100%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    border-radius: 0.25rem;
+    margin-bottom: 20px;
+    padding-left: 1.3125rem;
+    font-weight: 400;
+    font-size: 0.875rem;
+    height: 3.125rem;
+    font-family: "Open Sans", sans-serif;
+}
+.right-content #phone{
+    background-color: #2a5d77;
+    border: 1px solid #39728f;
+    color: #fff;
+    width: 100%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    border-radius: 0.25rem;
+    margin-bottom: 20px;
+    padding-left: 1.3125rem;
+    font-weight: 400;
+    font-size: 0.875rem;
+    height: 3.125rem;
+    font-family: "Open Sans", sans-serif;
+}
+.right-content #email{
+    background-color: #2a5d77;
+    border: 1px solid #39728f;
+    color: #fff;
+    width: 100%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    border-radius: 0.25rem;
+    margin-bottom: 20px;
+    padding-left: 1.3125rem;
+    font-weight: 400;
+    font-size: 0.875rem;
+    height: 3.125rem;
+    font-family: "Open Sans", sans-serif;
+}
+.right-content #options{
+    background-color: #2a5d77;
+    border: 1px solid #39728f;
+    color: #fff;
+    width: 100%;
+    padding-top: 0.80rem;
+    padding-bottom: 1.25rem;
+    border-radius: 0.25rem;
+    margin-bottom: 20px;
+    padding-left: 1.125rem;
+    font-weight: 400;
+    font-size: 0.875rem;
+    height: 3.125rem;
+    font-family: "Open Sans", sans-serif;
+}
+.checkbox{
+    display: flex;
+    margin-bottom: 20px;
+}
+.checkbox p,a{
+    margin-left: 10px;
+    color: white;
+}
+.right-content .button{
+    background-color: #14bf98;
+    border: 0.125rem solid #14bf98;
+    color: #fff;
+    width: 100%;
+    border-radius: 0.25rem;
+    height: 3.125rem;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    align-items: center;
+    padding-top: 0.60rem;
+    cursor: pointer;
+    
+}
+.right-content .button:hover{
+    background-color: #153e52;
 }
