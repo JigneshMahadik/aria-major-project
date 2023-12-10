@@ -895,3 +895,100 @@ ul li::before {
 .right-content .button:hover{
     background-color: #153e52;
 }
+.projects{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+.show-all{
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+    background-color: yellowgreen;
+    padding: 15px;
+    cursor: pointer;
+}
+.design{
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+    background-color: tomato;
+    padding: 15px;
+    cursor: pointer;
+}
+.dev{
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+    background-color: #39728f;
+    padding: 10px;
+    cursor: pointer;
+}
+#des-det,#dev-det{
+    display: none;
+}
+#des-det:target{
+
+        display: block;
+
+}
+.team-container{
+    /* background-color: gray; */
+    display: flex;
+    margin-left: 7%;
+    margin-right: 7%;
+    /* height: 10px; */
+    flex-wrap: wrap;
+    text-align: center;
+}
+.team-card{
+    /* background-color: #14bf98; */
+    /* height: 320px; */
+    width: 230px;
+    flex-grow: 1;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.team-card #img1{
+    margin-right: 10px;
+}
+.team-card #icon1{
+    /* margin-left: -23px; */
+    position: absolute;
+    margin-left: -33px;
+    margin-top: 5px;
+}
+.team-card #icon2{
+    /* margin-left: -23px; */
+    position: absolute;
+    margin-left: -22px;
+    margin-top: 5px;
+}
+.team-card #team-name{
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    font-family: "Open Sans", sans-serif;
+    color: #787976;
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
+.team-card #team-role{
+    color: #484a46;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 10px;
+}
+
+/* #seeMore {
+    display: none;
+  }
+
+  #seeMore:target {
+    display: block;
+  }
+  #hide:target{
+    display: none;
+  } */
