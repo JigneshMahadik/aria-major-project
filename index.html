@@ -15,15 +15,15 @@
         <div class="logo-img">
             <img src="logo.svg" alt="" height="32">
         </div>
-        <ul class="links">
-            <li>HOME</li>
-            <li>INTRO</li>
-            <li>SERVICES</li>
-            <li>CALL ME</li>
-            <li>PROJECTS</li>
-            <li>ABOUT</li>
-            <li>CONTACT</li>
-        </ul>
+        <div class="links">
+            <a href="#home">HOME</a>
+            <a href="#intro">INTRO</a>
+            <a href="#services">SERVICES</a>
+            <a href="#callme">CALL ME</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#about">ABOUT</a>
+            <a href="#contact">CONTACT</a>
+        </div>
         <div class="hexa-nav">
             <img id="hexa1-svg" src="hexa.svg" alt="" height="23">
             <img id="hexa1-inside" src="facebook-f.svg" alt="" height="12">
@@ -32,7 +32,7 @@
         </div>
         <div class="menu-bars"><i class="fa fa-bars"></i></div>
     </header>
-    <main>
+    <main id="home">
         <img src="water.jpg" alt="">
         <h1>BUSINESS TEMPLATE</h1>
         <div class="home-detail">
@@ -40,7 +40,7 @@
         </div>
         <button id="btn">DISCOVER</button>
     </main>
-    <div class="container">
+    <div class="container" id="intro">
         <div class="intro-box">
             <p style="color: #14bf98;margin-bottom: 0.5rem;font-weight: 500;font-size: 0.8125rem;line-height: 1.125rem;
             font-family: Montserrat, sans-serif;">
@@ -59,7 +59,7 @@
                 "Our mission here at Aira is to get you through those tough moments
                 relying on our team's expertise in starting and growing companies."
             </p>
-            <br />
+            <br/>
             <div style="color: #484a46;font-weight: 700;font-size: 1rem;line-height: 1.375rem;font-family: Montserrat, sans-serif;
             display: block;">
                 Louise Donovan - CEO
@@ -102,7 +102,7 @@
     </div>
 
     <!-- Services -->
-    <div class="service-absolute-container">
+    <div class="service-absolute-container" id="services">
         <div class="service-title">SERVICES</div>
         <br />
         <h2>
@@ -250,7 +250,7 @@
     </div>
     
     <!-- Call Me Section -->
-    <div class="call-me">
+    <div class="call-me" id="callme">
         <div class="left-container">
             <div class="left-content">
                 <p>CALL ME</p>
@@ -305,7 +305,9 @@
         </div>
         <div class="team-container">
             <div class="team-card">
-                <img src="team-1.png" alt="">
+                <div id="hexa-pic1">
+                    <img src="team-1.png" alt="">
+                </div>
                 <div id="team-name">John Whitelong</div>
                 <div id="team-role">General Manager</div>
                 <img src="hexa.svg" alt="" height="25" id="img1">
@@ -314,7 +316,9 @@
                 <img src="twitter.svg" alt="" height="15" id="icon2">
             </div>
             <div class="team-card">
-                <img src="team-2.png" alt="">
+                <div id="hexa-pic2">
+                    <img src="team-2.png" alt="">
+                </div>
                 <div id="team-name">Veronique Smith</div>
                 <div id="team-role">Business Developer</div>
                 <img src="hexa.svg" alt="" height="25" id="img1">
@@ -323,7 +327,9 @@
                 <img src="twitter.svg" alt="" height="15" id="icon2">
             </div>
             <div class="team-card">
-                <img src="team-3.png" alt="">
+                <div id="hexa-pic3">
+                    <img src="team-3.png" alt="">
+                </div>
                 <div id="team-name">Chris Zimerman</div>
                 <div id="team-role">Online Marketer</div>
                 <img src="hexa.svg" alt="" height="25" id="img1">
@@ -332,7 +338,9 @@
                 <img src="twitter.svg" alt="" height="15" id="icon2">
             </div>
             <div class="team-card">
-                <img src="team-4.png" alt="">
+                <div id="hexa-pic4">
+                    <img src="team-4.png" alt="">
+                </div>
                 <div id="team-name">Mary Villalonga</div>
                 <div id="team-role">Community Manager</div>
                 <img src="hexa.svg" alt="" height="25" id="img1">
@@ -343,7 +351,7 @@
         </div>
     </div>
     <!-- About Section -->
-    <div class="about-container">
+    <div class="about-container" id="about">
         <img src="about-pic.jpg" alt="" width="550" class="about-pic">
         <div class="about-box">
             <p style="color: #14bf98;margin-bottom: 0.5rem;font-weight: 500;font-size: 0.8125rem;line-height: 1.125rem;
@@ -384,7 +392,7 @@
         </div>
     </div>
     <!-- Contact Section -->
-    <div class="contact">
+    <div class="contact" id="contact">
         <div class="left-container">
             <div class="left-content">
                 <p>CONTACT</p>
@@ -465,6 +473,33 @@
         </div>
         <br><br><br>
     </div>
+    <footer>
+        <div class="footer-about">
+            <h2>Few Words About Aria</h2>
+            <p>
+                We're passionate about delivering the best business growth
+                services for companies just starting out as startups or industry
+                players that have established their market position a long tima ago.
+            </p>
+        </div>
+        <div class="footer-links">
+            <h2>Links</h2>
+            <p>Terms & Conditions</p>
+            <p>Privacy Policy</p>
+        </div>
+        <div class="footer-tools">
+            <h2>Tools</h2>
+            <p>businessgrowth.com
+            <p>influencers.com</p>
+            <p>optimizer.net</p>
+        </div>
+        <div class="footer-partners">
+            <h2>Partners</h2>
+            <p>unicorns.com</p>
+            <p>staffmanager.com</p>
+            <p>association.gov</p>
+        </div>
+    </footer>
     <!-- <div class="projects">
         <div class="show-all" id="#show">Show All</div>
         <div class="design">Design</div>

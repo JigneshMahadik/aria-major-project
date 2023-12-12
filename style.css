@@ -37,9 +37,14 @@ header{
     align-items: center;
     justify-content: center;
     color: #fff;
+    text-decoration: none;
     font-weight: 600;
     font-size: 0.875rem;
     font-family: "Open Sans", sans-serif;
+}
+.links a{
+    color: white;
+    text-decoration: none;
 }
 .menu-bars{
     display: none;
@@ -67,10 +72,10 @@ header{
 #hexa2-inside{
     margin-left: -37px;   
 }
-.links ul li:hover{
+.links a:hover{
     color: #14bf98;
 }
-.links ul li:first-child{
+.links a:first-child{
     color: #14bf98;
 }
 .menu-bars{
@@ -95,16 +100,21 @@ main{
     position: absolute;
 }
 main img{
+    background-image: url(water.jpg);
     background-size: cover;
     width: 100%;
+    height: 100%;
     text-align: center;
     justify-content: center;
     margin-top: -60px;
+    /* background: rgba(0,0,0,0.5); */
+    /* opacity: 5; */
+    filter: brightness(70%);
 }
 main h1{
     position: absolute;
     left: 28%;
-    top: 40%;
+    top: 32%;
     font-size: 4vw;
     font-family: Montserrat, sans-serif;
     color: white;
@@ -113,7 +123,7 @@ main h1{
     position: absolute;
     width: 59%;
     left: 20%;
-    top: 49%;
+    top: 43%;
     font-size: 2vw;
     /* background-color: #14bf98; */
     text-align: center;
@@ -131,14 +141,14 @@ main button{
     padding-left: 10px;
     padding-right: 10px;
     left: 45%;
-    top: 62%;
+    top: 58%;
     color: #fff;
     font-weight: 700;
     /* min-height: 25px; */
     border: none;
     border-radius: 5px;
 }
-main button :hover{
+main button:hover{
     color: #14bf98;
     background-color: transparent;
     border: 2px solid #14bf98;
@@ -161,10 +171,18 @@ main button :hover{
     padding: 2%;
 }
 .intro-pic{
+    /* background-color: red; */
     padding: 2%;
     flex-grow: 1;
     min-inline-size: 0%;
     border-radius: 30px;
+    display: block;
+}
+.intro-pic:hover{
+    /* filter: blur(4px); */
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+  transform-origin: 50% 50%;
 }
 .hexagon-intro{
     display: flex;
@@ -303,6 +321,18 @@ main button :hover{
     min-width: 300px;
     max-width: 400px;
     border: 1px solid #ebe8e8;
+
+}
+.service-box1{
+    display: block;
+    overflow: hidden;
+}
+.service-box1 img{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+.service-box1:hover img{
+    transform: scale(1.5);
 }
 .service-box1 img{
     /* background-color: red; */
@@ -378,12 +408,30 @@ main button :hover{
     width: 450px;
     /* background-size: cover; */
     height: 450px;
+    display: block;
+    overflow: hidden;
 }
 .detail-pic1 img{
     background-size: cover;
     width: 100%;
     height: 100%;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
 }
+.detail-pic1:hover img{
+    transform: scale(1.5);
+}
+/* .service-box1{
+    display: block;
+    overflow: hidden;
+}
+.service-box1 img{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+.service-box1:hover img{
+    transform: scale(1.5);
+} */
 .details1{
     /* width: 300px; */
     /* background-color: #2a76c2; */
@@ -961,6 +1009,52 @@ ul li::before {
     flex-grow: 1;
     text-align: center;
     margin-bottom: 50px;
+    display: block;
+    overflow: hidden;
+}
+#hexa-pic1{
+    display: block;
+    overflow: hidden;
+}
+#hexa-pic1 img{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+#hexa-pic1:hover img{
+    transform: scale(1.2);
+}
+#hexa-pic2{
+    display: block;
+    overflow: hidden;
+}
+#hexa-pic2 img{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+#hexa-pic2:hover img{
+    transform: scale(1.2);
+}
+#hexa-pic3{
+    display: block;
+    overflow: hidden;
+}
+#hexa-pic3 img{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+#hexa-pic3:hover img{
+    transform: scale(1.2);
+}
+#hexa-pic4{
+    display: block;
+    overflow: hidden;
+}
+#hexa-pic4 img{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+#hexa-pic4:hover img{
+    transform: scale(1.2);
 }
 .team-card #img1{
     margin-right: 10px;
@@ -1088,7 +1182,7 @@ ul li::before {
     flex-wrap: wrap;
     margin-bottom: 100px;
     padding-top: 3%;
-    padding-bottom: 4%;
+    /* padding-bottom: 4%; */
 }
 .contact .left-container{
     /* background-color: #14bf98; */
@@ -1276,6 +1370,109 @@ ul li::before {
 .contact .right-content .button:hover{
     background-color: white;
     color: #14bf98;   
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #153e52;
+    /* height: 100px; */
+    width: 100%;
+    margin-top: 3%;
+    padding: 5% 5% 5% 2%;
+}
+footer .footer-about{
+    /* background-color: gray; */
+    flex-grow: 1;
+    width: 40%;
+    min-width: 300px;
+    padding: 20px 30px 20px 20px;
+}
+footer .footer-about h2{
+    margin-bottom: 0.55rem;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    font-family: Montserrat, sans-serif
+}
+footer .footer-about p{
+    color: #dfe5ec;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    font-weight: 400;
+    font-family: Montserrat, sans-serif
+}
+footer .footer-links{
+    /* background-color: #14bf98; */
+    flex-grow: 1;
+    width: 20%;
+    min-width: 150px;
+    padding: 20px;
+}
+footer .footer-links h2{
+    margin-bottom: 0.35rem;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    font-family: Montserrat, sans-serif
+}
+footer .footer-links p{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #dfe5ec;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+}
+footer .footer-tools{
+    /* background-color: violet; */
+    flex-grow: 1;
+    width: 20%;
+    min-width: 200px;
+    padding: 20px;
+}
+footer .footer-tools h2{
+    margin-bottom: 0.35rem;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    font-family: Montserrat, sans-serif
+}
+footer .footer-tools p{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #dfe5ec;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+}
+footer .footer-partners{
+    /* background-color: tomato; */
+    flex-grow: 1;
+    width: 20%;
+    min-width: 150px;
+    padding: 20px;
+}
+footer .footer-partners h2{
+    margin-bottom: 0.35rem;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    font-family: Montserrat, sans-serif
+}
+footer .footer-partners p{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #dfe5ec;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
 }
 /* #seeMore {
     display: none;
