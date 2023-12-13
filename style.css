@@ -141,7 +141,7 @@ main button{
     padding-left: 10px;
     padding-right: 10px;
     left: 45%;
-    top: 58%;
+    top: 59%;
     color: #fff;
     font-weight: 700;
     /* min-height: 25px; */
@@ -294,8 +294,8 @@ main button:hover{
 .service-title{
     /* background-color: gray; */
     color: #14bf98;
-    font-weight: 500;
-    font-size: 0.8125rem;
+    font-weight: 600;
+    font-size: 1.2rem;
     font-family: Montserrat, sans-serif;
 }
 .service-absolute-container h2{
@@ -815,8 +815,8 @@ main button:hover{
 }
 .left-content p:first-child{
     color: #14bf98;
-    font-weight: 500;
-    font-size: 0.8125rem;
+    font-weight: 600;
+    font-size: 1.2rem;
     line-height: 2.225rem;
     font-family: Montserrat, sans-serif;
 }
@@ -950,11 +950,11 @@ ul li::before {
 .call-me .right-content .button:hover{
     background-color: #153e52;
 }
-.projects{
+/* .projects{
     display: flex;
     justify-content: center;
     background-color: gray;
-}
+} */
 .show-all{
     height: 50px;
     width: 100px;
@@ -986,6 +986,118 @@ ul li::before {
 
         display: block;
 
+}
+/* Projects Section */
+.projects{
+    display: flex;
+    /* background-color: #14bf98; */
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+    padding: 7% 7px;
+    margin-bottom: 20px;
+}
+.projects p:first-child{
+    color: #14bf98;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 2.225rem;
+    font-family: Montserrat, sans-serif;
+}
+.projects h1{
+    margin-bottom: 3.25rem;
+    color: #484a46;
+    font-weight: 700;
+    font-stretch: normal;
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+    font-family: Montserrat, sans-serif;
+}
+.menus{
+    display: flex;
+    gap: 10px;
+    /* background-color: gray; */
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.menus label:first-child{
+    font-weight: 700;
+    font-stretch: normal;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-family: Montserrat, sans-serif;
+    background-color: #f1f4f7;
+    color: #7b7e85;
+    cursor: pointer;
+}
+.menus label{
+    font-weight: 700;
+    font-stretch: normal;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-family: Montserrat, sans-serif;
+    background-color: #f1f4f7;
+    color: #7b7e85;
+    cursor: pointer;
+}
+.menus label:hover{
+    color: white;
+    background-color: #14bf98;
+}
+/* .menu-pic{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: violet;
+   
+    justify-content: center;
+} */
+/* .menu-pic img{
+    height: 200px;
+    width: 200px;
+    
+    min-width: 50px;
+    min-height: 50px;
+} */
+.menu-pic{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 25px;
+    padding: 0px 0px;
+    /* background-color: gray; */
+    justify-content: center;
+    /* width: 100%; */
+}
+.left-2{
+    display: flex;
+    /* width: 400px; */
+    height: 250px;
+    /* background-color: red; */
+    flex-shrink: 1;
+    /* min-width: 200px; */
+    /* min-height: 40vw; */
+}
+.right-2{
+    display: flex;
+    /* width: 300px; */
+    height: 250px;
+    /* background-color: #113448; */
+    flex-shrink: 1;
+    /* min-width: 200px; */
+    /* min-height: 40vw; */
+}
+@media(max-width :500px){
+    .left-2{
+        height: 19vh;
+    }
+    .right-2{
+        height: 19vh;
+    }
+}
+label{
+    padding: 6px 15px;
+    border-radius: 5px;
+    /* background-color: tomato; */
 }
 /* Team of Consultants */
 .consultants-main-container{
@@ -1120,7 +1232,7 @@ ul li::before {
     width: 400px;
     /* height: 400px; */
     flex-grow: 1;
-    padding: 2%;
+    padding: 1.5%;
     margin-top: 15px;
 }
 .about-pic{
@@ -1203,9 +1315,9 @@ ul li::before {
 }
 .contact .left-content p:first-child{
     color: #14bf98;
-    font-weight: 500;
-    font-size: 0.8125rem;
-    line-height: 2.225rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 2.525rem;
     font-family: Montserrat, sans-serif;
 }
 .contact .left-content h1{
@@ -1434,7 +1546,7 @@ footer .footer-tools{
     padding: 20px;
 }
 footer .footer-tools h2{
-    margin-bottom: 0.35rem;
+    margin-bottom: 0.20rem;
     color: #fff;
     font-weight: 700;
     font-size: 1.25rem;
@@ -1458,7 +1570,7 @@ footer .footer-partners{
     padding: 20px;
 }
 footer .footer-partners h2{
-    margin-bottom: 0.35rem;
+    margin-bottom: 0.20rem;
     color: #fff;
     font-weight: 700;
     font-size: 1.25rem;
