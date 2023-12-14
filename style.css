@@ -302,6 +302,11 @@ main button:hover{
     margin-bottom: 3.25rem;
     text-align: center;
     margin-bottom: 0;
+    color: #153e52;
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+    font-family: Montserrat, sans-serif;
 }
 /* Service Container */
 .service-main-container{
@@ -1120,7 +1125,6 @@ label{
 #seo:checked ~ .tag4{
    background-color: #333333;      
    color: white;
-   transform: rotate();
 }
 
 /* Team of Consultants */
