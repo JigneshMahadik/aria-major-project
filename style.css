@@ -1099,6 +1099,30 @@ label{
     border-radius: 5px;
     /* background-color: tomato; */
 }
+.projects input{
+    display: none;
+}
+/* .projects .menu-pic .left-2, .right-2:hover img{
+    transition: all 4s ease-in-out;
+} */
+/*filter CSS */
+#des:checked ~ .menu-pic .left-2 > img:not([class*='des']),
+#devlop:checked ~ .menu-pic .right-2 > img:not([class*='devlop']),
+#market:checked ~ .menu-pic .left-2 > img:not([class*='market']),
+#seo:checked ~ .menu-pic .right-2 > img:not([class*='seo']){
+  width: 0px;
+  height: 0px;
+}
+#all:checked ~ .all,
+#des:checked ~ .tag1, 
+#devlop:checked ~ .tag2,
+#market:checked ~ .tag3,
+#seo:checked ~ .tag4{
+   background-color: #333333;      
+   color: white;
+   transform: rotate();
+}
+
 /* Team of Consultants */
 .consultants-main-container{
     background-color: #eef3f3;
